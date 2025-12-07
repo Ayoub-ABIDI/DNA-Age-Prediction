@@ -1,0 +1,79 @@
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.pickle
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# -----------------------------
+# OS Files
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# Data Files
+# -----------------------------
+# Prevent large methylation datasets from being pushed accidentally
+data/*.csv
+data/*.csv.gz
+data/*.tsv
+data/*.xlsx
+
+# If you want to keep a small sample dataset, remove the line above
+
+# -----------------------------
+# Models & Artifacts
+# -----------------------------
+models/
+*.joblib
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.sav
+
+# -----------------------------
+# Cache
+# -----------------------------
+.cache/
+*.cache
+*.tmp
+
+# -----------------------------
+# IDE & Editor Files
+# -----------------------------
+.vscode/
+.idea/
+*.code-workspace
+
+# -----------------------------
+# Environment / Config
+# -----------------------------
+.env
+.env.*
+*.ini
+*.cfg
+*.toml
+
+# -----------------------------
+# Build Files
+# -----------------------------
+build/
+dist/
+*.egg-info/
